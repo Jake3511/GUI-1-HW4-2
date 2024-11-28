@@ -1,0 +1,61 @@
+<!--
+File: index.html
+GUI Assignment: Homework 4, Creating an Interactive Dynamic Table
+Jake Shick, UMass Lowell Computer Science, jake_shick@student.uml.edu
+Copyright (c) 2024 by Shick. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by JS on November 27, 2024 at 10:15 PM.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Dynamic Multiplication Table</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="./index.js"></script> 
+
+    <header>
+      <h1>DYNAMIC MULTIPLICATION TABLE</h1>
+    </header>
+    <div id="tabs">
+      <ul>
+        <li><a href="#input-tab">Input Parameters</a></li>
+      </ul>
+      <div id="input-tab">
+        <form id="mult-form">
+          <ul id="Results">
+            <li class="min-x">
+              Minimum Value of X (between -50 to 50): 
+              <input type="text" id="min-x" name="min_x" placeholder="-50 to 50">
+              <div id="slider-min-x"></div>
+            </li>
+            <li class="max-x">
+              Maximum Value of X (between -50 to 50): 
+              <input type="text" id="max-x" name="max_x" placeholder="-50 to 50">
+              <div id="slider-max-x"></div>
+            </li>
+            <li class="min-y">
+              Minimum Value of Y (between -50 to 50): 
+              <input type="text" id="min-y" name="min_y" placeholder="-50 to 50">
+              <div id="slider-min-y"></div>
+            </li>
+            <li class="max-y">
+              Maximum Value of Y (between -50 to 50): 
+              <input type="text" id="max-y" name="max_y" placeholder="-50 to 50">
+              <div id="slider-max-y"></div>
+            </li>            
+            <button type="button" onclick="Submit()">Submit</button>
+            <span id="error"></span>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+Github repo link:
+
+Github io link:
+
+Sources:
+https://api.jqueryui.com/theming/icons/
+https://jqueryvalidation.org/
+https://www.youtube.com/watch?v=xNSQ3i-BWMo
+https://jqueryui.com/slider/
+https://api.jqueryui.com/slider/
+https://www.youtube.com/watch?v=G8DcQsYQsGE
