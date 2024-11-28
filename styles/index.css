@@ -7,6 +7,10 @@ excerpted for educational purposes with credit to the author.
 updated by JS on November 27, 2024 at 10:15 PM.
 */
 
+/*
+tableContainer is made to have specific colors for the cells to improve the organization and overall look of the table.  It also checks for overflow by condensing 
+down on smaller systems and devices.
+*/
 body {
     background-color: rgb(43, 43, 43);
     color: white;
